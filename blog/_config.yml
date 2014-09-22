@@ -1,0 +1,13 @@
+# Site settings
+title: Leonardo Merlin
+email: hi@leonardomerlin.com.br
+description: > # this means to ignore newlines until "baseurl:"
+  A craftsman developer who lives in BrasÃ­lia
+  and work for the largest south american government company.
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://leonardomerlin.com.br" # the base hostname & protocol for your site
+twitter_username: leonardomerlin
+github_username:  leonardomerlin
+
+# Build settings
+markdown: kramdown
