@@ -1,0 +1,24 @@
+# Site settings
+title: Leonardo Merlin
+description: "A craftsman developer who lives in Brazil and work for the largest south american government company."
+baseurl: ""
+url: "http://leonardomerlin.com.br/"
+
+name: Leonardo Merlin
+email: hi@leonardomerlin.com.br
+twitter_username: leonardomerlin
+github_username:  leonardomerlin
+google_analytics: UA-35971148-1
+
+# Build settings
+safe: false
+source: .
+destination: ./_site
+plugins: ./_plugins
+paginate_path: 'blog/page:num'
+
+markdown: kramdown
+highlighter: pygments
+# permalink: /:title/
+permalink: pretty
+paginate: 5

@@ -1,0 +1,72 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+// $base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-family: 'Droid Serif', Georgia, serif;
+// $base-font-family: 'Lora', 'Times New Roman', serif;
+$base-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$serif-font-family: 'Lora', 'Times New Roman', serif;
+$sans-serif-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$spacing-unit:     30px;
+
+
+// Color Palette
+$palette-green: #02ff00;
+$palette-yellow-smooth: #e0e80c;
+$palette-yellow-mustard: #ffbb00;
+$palette-terracota: #e8640c;
+$palette-red: #ff0d0d;
+// shadows
+$palette-yellow-shadow-0: #e5a800;
+$palette-yellow-shadow-1: #bf8c00;
+$palette-yellow-shadow-2: #7f5d00;
+$palette-yellow-shadow-3: #402f00;
+// 
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      $palette-yellow-mustard;
+$brand-color-dark: $palette-terracota;
+$gray-dark: lighten(black, 25%);
+$gray: lighten(black, 50%);
+$white-faded: fade(white, 80%);
+$gray-light: #eee;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// $title-font-family: 'Open Sans';
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "mixins",
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "navigation",
+        "header"
+;
