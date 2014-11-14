@@ -157,10 +157,6 @@
 }
 
 
-
-/**
- * Page content
- */
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -208,6 +204,7 @@
 }
 
 .post-content {
+    @extend %sans-serif;
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -233,4 +230,13 @@
             font-size: 18px;
         }
     }
+}
+
+hr.small {
+    max-width: 200px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: white;
+
+    @include box-shadow(1px, 2px, 5px, $palette-yellow-shadow-2);
 }
