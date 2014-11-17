@@ -50,8 +50,10 @@ a {
   &:focus {
     color: $brand-color-dark;
     text-decoration: underline;
+    -webkit-transition: color linear .2s;
+    transition: color linear .2s;
   }
-  
+
   img {
     &:hover,
     &:focus {
@@ -62,9 +64,9 @@ a {
 
 
 
-// 
+//
 //  Blockquotes
-// 
+//
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
@@ -77,9 +79,9 @@ blockquote {
 }
 
 
-// 
+//
 // Code formatting
-// 
+//
 pre,
 code {
   font-size: 15px;
@@ -102,4 +104,3 @@ pre {
     padding-left: 0;
   }
 }
-

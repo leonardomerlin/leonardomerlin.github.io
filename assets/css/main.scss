@@ -27,14 +27,14 @@ $palette-yellow-shadow-0: #e5a800;
 $palette-yellow-shadow-1: #bf8c00;
 $palette-yellow-shadow-2: #7f5d00;
 $palette-yellow-shadow-3: #402f00;
-// 
+//
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      $palette-yellow-mustard;
 $brand-color-dark: $palette-terracota;
 $gray-dark: lighten(black, 25%);
 $gray: lighten(black, 50%);
-$white-faded: fade(white, 80%);
+$white-faded: rgba(255, 255, 255, .8);
 $gray-light: #eee;
 
 $grey-color:       #828282;
