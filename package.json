@@ -26,6 +26,7 @@
     "gulp-imagemin": "^2.0.0",
     "imagemin-jpeg-recompress": "^4.0.0",
     "imagemin-pngquant": "^4.0.0",
-    "gulp-changed": "^1.0.0"
+    "gulp-changed": "^1.0.0",
+    "gulp-uncss": "^0.5.1"
   }
 }
