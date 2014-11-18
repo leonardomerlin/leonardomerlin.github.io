@@ -88,9 +88,9 @@
 
 
 
-/**
- * Site footer
- */
+//
+// Site footer
+//
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -186,9 +186,9 @@
 
 
 
-/**
- * Posts
- */
+//
+// Posts
+//
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -239,4 +239,9 @@ hr.small {
     border-color: white;
 
     @include box-shadow(1px, 2px, 5px, $palette-yellow-shadow-2);
+}
+
+.copyright {
+  text-align: right;
+  font-size: .8em;
 }
