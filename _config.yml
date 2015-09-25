@@ -12,10 +12,10 @@ google_analytics: UA-35971148-1
 
 # Build settings
 safe: false
-source: .
-destination: ./_site
-plugins: ./_plugins
+source: ./src
+destination: ./dist
 paginate_path: 'blog/page:num'
+plugins: ./src/_plugins
 
 markdown: kramdown
 highlighter: pygments

@@ -1,6 +1,6 @@
-leonardomerlin.github.io
-========================
+# Personal site
 
-Personal page
+This is my personal site.
 
+# License
 [MIT License](http://leonardomerlin.mit-license.org/)

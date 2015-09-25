@@ -1,6 +1,7 @@
 bower_components/
 node_modules/
 .sass-cache/
-_site/
 
-assets/img-src/
+# Jekyll
+dist/
+.jekyll-metadata
