@@ -1,0 +1,116 @@
+{
+  "basics": {
+    "name": "Leonardo Merlin",
+    "label": "Frontend Developer",
+    "picture": "http://lorempixel.com/150/150/",
+    "email": "to@leonardomerlin.com.br",
+    "phone": "",
+    "website": "http://leonardomerlin.com.br",
+    "summary": "He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "SQN 402, Bloco E",
+      "postalCode": "BR 70.834-050",
+      "city": "Brasília",
+      "countryCode": "BR",
+      "region": "DF"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "leonardomerlin",
+        "url": "http://github.com/leonardomerlin"
+      },
+      {
+        "network": "Twitter",
+        "username": "leonardomerlin",
+        "url": "http://twitter.com/leonardomerlin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Serpro",
+      "position": "Analyst - Systems Development",
+      "website": "http://serpro.gov.br",
+      "startDate": "2014-02-03",
+      "endDate": "2016-12-31",
+      "summary": "Serpro is the biggest governamental company of South America. My primary role here is improve the User Interface and User Experience of WebApps.",
+      "highlights": [
+        "Build an application to prioritize subjectives qualifications and help to make hard decisions.",
+        "Optimized internal process decreasing lead time from 6 moths to 3 weeks. ",
+        "Successfully won contests of promotion by merit every year"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Guarda Mirim",
+      "position": "Teacher",
+      "website": "http://coderdojo.com/",
+      "startDate": "2008-01-01",
+      "endDate": "2010-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of West of Paraná",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-01",
+      "endDate": "2007-01-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
