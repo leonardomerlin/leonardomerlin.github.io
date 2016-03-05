@@ -106,7 +106,7 @@
   "skills": [
     {
       "name": "Languages",
-      "level": "",
+      "level": "master",
       "keywords": [
         "Java",
         "Javascript",
@@ -116,7 +116,7 @@
     },
     {
       "name": "Technologies",
-      "level": "",
+      "level": "master",
       "keywords": [
         "Angular 1 & 2",
         "Web Components",
@@ -132,7 +132,7 @@
     },
     {
       "name": "Practices",
-      "level": "",
+      "level": "advanced",
       "keywords": [
         "Scrum",
         "Kanban",
