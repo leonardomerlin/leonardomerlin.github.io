@@ -1,0 +1,156 @@
+{
+  "basics": {
+    "name": "Leonardo Merlin",
+    "label": "Developer",
+    "picture": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtl1/v/t1.0-1/c0.0.160.160/p160x160/10440997_722098147878715_8019196438364055139_n.jpg?oh=716f0f36aa476da06cdce552e56d1725&oe=57520D56&__gda__=1465096613_6b6970a06fba803fe279d3e8a2eb4a14",
+    "email": "hi@leonardomerlin.com.br",
+    "phone": "+5506196060901",
+    "website": "http://leonardomerlin.com.br",
+    "summary": "Hi. I'm Leo. I work for the biggest governmental TI company of South America, Serpro. At here, I work mostly in portals development as a team lead of front-end developers. I like to do lightning talks and promote the share of knowledge. My motivation is to bring internal innovation with entrepreneurial sense. The most used technologies are Liferay Portal at the back-end and AngularJS at the front-end.",
+    "location": {
+      "address": "SQN 402, Bloco E",
+      "postalCode": "BR 70.834-050",
+      "city": "Brasília",
+      "countryCode": "BR",
+      "region": "DF"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "leonardomerlin",
+        "url": "http://github.com/leonardomerlin"
+      },
+      {
+        "network": "Twitter",
+        "username": "leonardomerlin",
+        "url": "http://twitter.com/leonardomerlin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Serpro",
+      "position": "Analyst - Systems Development",
+      "website": "http://serpro.gov.br",
+      "startDate": "2014-02-03",
+      "endDate": "2016-12-31",
+      "summary": "Serpro is the biggest governamental company of South America. My primary role here is improve the User Interface and User Experience of WebApps.",
+      "highlights": [
+        "I trained a whole department to work with Scrum and Kanban. About 26 people, 48 hours of Scrum and 56 hours of Kanban. Also, I created a custom version of the Kanban Game for the department reality.",
+        "Build an application that help managers to prioritize subjectives qualifications and help then to make hard decisions.",
+        "Optimized internal process decreasing lead time from 6 moths to 3 weeks. "
+      ]
+    },
+    {
+      "company": "NTV (Agency)",
+      "position": "Web Developer",
+      "website": "http://ntv.com.br",
+      "startDate": "2012-11-01",
+      "endDate": "2013-04-01",
+      "summary": "Here, I was responsible for translate the creation of designers to HTML/CSS/JS. We develop sites, e-commerces, webapps and execute small plans of marketing.",
+      "highlights": [
+        "Develop three big e-commerces. One of them was for the biggest supermarket of region (west of the state of Paraná)",
+        "Magento and OpenCart."
+      ]
+    },
+    {
+      "company": "Lápis Digital (Agency)",
+      "position": "Freelance - PHP Developer",
+      "website": "",
+      "startDate": "2012-03-01",
+      "endDate": "2012-08-01",
+      "summary": "Here I develop institucional websites and a e-learning platform",
+      "highlights": []
+    },
+    {
+      "company": "Unioeste",
+      "position": "Java Web Developer",
+      "website": "http://unioeste.br",
+      "startDate": "2010-01-01",
+      "endDate": "2011-12-01",
+      "summary": "Co-creator of SIGETRANS, an Integrated System Georeferenced Monitoring & Control of Traffic Accidents Internet. Development of integrated solutions from the Fire Department, Emergency Care Units, Hospitals and Events Reports on traffic accidents in Cascavel - Paraná / Brazil.",
+      "highlights": [
+        "Geoprocessing with Java and PostGis"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Guarda Mirim",
+      "position": "Teacher",
+      "website": "",
+      "startDate": "2008-01-01",
+      "endDate": "2010-01-01",
+      "summary": "Digital inclusion of teenagers through training on free software.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of West of Paraná",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-01",
+      "endDate": "2007-01-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Javascript",
+        "NodeJS",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "level": "",
+      "keywords": [
+        "Angular 1 & 2",
+        "Web Components",
+        "Backbone & Marionette",
+        "jQuery",
+        "CSS Preprocessors",
+        "Liferay",
+        "Express",
+        "CSS Frameworks",
+        "svn",
+        "git"
+      ]
+    },
+    {
+      "name": "Practices",
+      "level": "",
+      "keywords": [
+        "Scrum",
+        "Kanban",
+        "VTDD",
+        "BDD",
+        "Feature Flag",
+        "A/B Tests",
+        "Code Coverage",
+        "Sonar",
+        "Continuous Delivery"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
