@@ -1,12 +1,11 @@
 {
   "basics": {
     "name": "Leonardo Merlin",
-    "label": "Developer",
+    "label": "Front-end Developer",
     "picture": "http://leonardomerlin.com.br/photo.png",
     "email": "hi@leonardomerlin.com.br",
-    "phone": "+5506196060901",
+    "phone": "(908) 787-9164",
     "website": "http://leonardomerlin.com.br",
-    "summary": "Hi. I'm Leo. I work for the biggest governmental TI company of South America, Serpro. At here, I work mostly in portals development as a team lead of front-end developers. I like to do lightning talks and promote the share of knowledge. My motivation is to bring internal innovation with entrepreneurial sense. The most used technologies are Liferay Portal at the back-end and AngularJS at the front-end.",
     "location": {
       "address": "SQN 402, Bloco E",
       "postalCode": "BR 70.834-050",
@@ -24,14 +23,20 @@
         "network": "Twitter",
         "username": "leonardomerlin",
         "url": "http://twitter.com/leonardomerlin"
-      },
-      {
-        "network": "Facebook",
-        "username": "leonardomerlin",
-        "url": "https://www.facebook.com/leonardomerlin.com.br"
       }
     ]
   },
+  "education": [
+    {
+      "institution": "UNIOESTE - University of West of Paraná",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-01",
+      "endDate": "2007-01-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
   "work": [
     {
       "company": "Serpro",
@@ -39,33 +44,38 @@
       "website": "http://serpro.gov.br",
       "startDate": "2014-02-03",
       "endDate": "2016-12-31",
-      "summary": "Serpro is the biggest governamental company of South America. My primary role here is improve the User Interface and User Experience of WebApps.",
+      "summary": "My primary role here is to improve the User Interface and User Experience of WebApps.",
       "highlights": [
-        "I trained a whole department to work with Scrum and Kanban. About 26 people, 48 hours of Scrum and 56 hours of Kanban. Also, I created a custom version of the Kanban Game for the department reality.",
-        "Build an application that help managers to prioritize subjectives qualifications and help then to make hard decisions.",
-        "Optimized internal process decreasing lead time from 6 moths to 3 weeks. "
+        "Proposed and implemented Kanban on different teams. A more efficient workflow that increased productivity",
+        "Created a tool to help project managers prioritize objectives facilitating resource allocation",
+        "Trained other teams on Scrum, Kanban, AngularJs and SASS",
+        "Created a component library, standardizing UI over different projects and reducing code duplication."
       ]
     },
     {
       "company": "NTV (Agency)",
-      "position": "Web Developer",
+      "position": "Front-End Engineer",
       "website": "http://ntv.com.br",
       "startDate": "2012-11-01",
       "endDate": "2013-04-01",
-      "summary": "Here, I was responsible for translate the creation of designers to HTML/CSS/JS. We develop sites, e-commerces, webapps and execute small plans of marketing.",
+      "summary": "",
       "highlights": [
-        "Develop three big e-commerces. One of them was for the biggest supermarket of region (west of the state of Paraná)",
-        "Magento and OpenCart."
+        "Developed three big online stores. One, for the biggest supermarket of the region.",
+        "Created a reusable responsive theme to use across different online stores",
+        "Implemented secure integration with payment gateway for e-commerce."
       ]
     },
     {
       "company": "Lápis Digital (Agency)",
-      "position": "Freelance - PHP Developer",
+      "position": "Freelance Developer",
       "website": "",
-      "startDate": "2012-03-01",
-      "endDate": "2012-08-01",
-      "summary": "Here I develop institucional websites and a e-learning platform",
-      "highlights": []
+      "startDate": "2012-03",
+      "endDate": "2012-08",
+      "summary": "",
+      "highlights": [
+        "Created portals and a e-learning platform",
+        "Designed a Joomla extension to manage online classes"
+      ]
     },
     {
       "company": "Unioeste",
@@ -73,9 +83,11 @@
       "website": "http://unioeste.br",
       "startDate": "2010-01-01",
       "endDate": "2011-12-01",
-      "summary": "Co-creator of SIGETRANS, an Integrated System Georeferenced Monitoring & Control of Traffic Accidents Internet. Development of integrated solutions from the Fire Department, Emergency Care Units, Hospitals and Events Reports on traffic accidents in Cascavel - Paraná / Brazil.",
+      "summary": "Co-creator of SIGETRANS, a system that track transit accidents",
       "highlights": [
-        "Geoprocessing with Java and PostGis"
+        "Responsible for integrating the system with the fire department, emergency care units and hospitals",
+        "Implemented a visualization tool to better convey accident reports",
+        "Wrote several white papers related to this project"
       ]
     }
   ],
@@ -90,70 +102,26 @@
       "highlights": []
     }
   ],
-  "education": [
-    {
-      "institution": "University of West of Paraná",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2013-01-01",
-      "endDate": "2007-01-01",
-      "gpa": "",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "publications": [],
   "skills": [
     {
       "name": "Languages",
       "level": "master",
       "keywords": [
-        "Java",
         "Javascript",
-        "NodeJS",
-        "PHP"
+        "PHP",
+        "Java"
       ]
     },
     {
       "name": "Technologies",
       "level": "master",
       "keywords": [
-        "Angular 1 & 2",
+        "Angular",
         "Web Components",
         "Backbone & Marionette",
-        "jQuery",
-        "CSS Preprocessors",
-        "Liferay",
-        "Express",
-        "CSS Frameworks",
-        "svn",
-        "git"
+        "CSS Pre-processors",
+        "PostCSS"
       ]
-    },
-    {
-      "name": "Practices",
-      "level": "advanced",
-      "keywords": [
-        "Scrum",
-        "Kanban",
-        "VTDD",
-        "BDD",
-        "Feature Flag",
-        "A/B Tests",
-        "Code Coverage",
-        "Sonar",
-        "Continuous Delivery"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Portuguese",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Intermediate"
     }
   ],
   "interests": [],
