@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/leonardomerlin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://leonardomerlin.com.br
+  * I am leonardomerlin (https://keybase.io/leonardomerlin) on keybase.
+  * I have a public key ASAlkwzyGyuMNtdB5C-7kotE0G8n23irSWoZEO0UZb0isgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019ce6f625c2b5bbad89cd60d6386ebef7b9fff200860a38d45a0c63133786cff30a",
+      "host": "keybase.io",
+      "kid": "012025930cf21b2b8c36d741e42fbb928b44d06f27db78ab496a1910ed1465bd22b20a",
+      "uid": "72a693cae9ef7a8bb29657086eff4919",
+      "username": "leonardomerlin"
+    },
+    "merkle_root": {
+      "ctime": 1522851809,
+      "hash": "acf2b1e6083cf0403db950a3dff2f3ccd4cad3944ab9f1c85ef5c28a82d2b30d576bd5d6bb1f29bff5bb9771d6217bead7692734ac36fa6a6c91a8b9f850d23a",
+      "hash_meta": "936f76cca96aa8ce9af53b10182148cf02cdb857389f705643ec7eb7aed6e104",
+      "seqno": 2334446
+    },
+    "service": {
+      "entropy": "ok+ppUHCftn2fXDxqjSVgna0",
+      "hostname": "leonardomerlin.com.br",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1522851898,
+  "expire_in": 504576000,
+  "prev": "610381ea711cac8fc6d45dc6faaad2aa5a0590e5b4ac5146a815d3f4faa9dbdb",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJZMM8hsrjDbXQeQvu5KLRNBvJ9t4q0lqGRDtFGW9IrIKp3BheWxvYWTESpcCCcQgYQOB6nEcrI/G1F3G+qrSqloFkOW0rFFGqBXT9Pqp29vEIPzMBLQwtc/R6sZQgxvB/9SJkbrCpVb8/E4+5gbJwuXoAgHCo3NpZ8RAwRdBLcGZQwzDyY2X/7a17Uffji90vRMaAOYSZKrn8V7zw2HPdYYAy2QcQuUnHyM/QrV+R9h3e8VlH3e7Fo7gAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAusuwv3F9fG4+PeUh7kmTfuLDV9i1XJCM7yDYGdfu7Yo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leonardomerlin
+
+==================================================================
