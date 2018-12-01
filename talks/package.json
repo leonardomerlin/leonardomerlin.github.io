@@ -1,0 +1,11 @@
+{
+  "name": "@leonardomerlin/talks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server -p 8080 --no-dotfiles",
+    "start:ssl": "npm run start -- --ssl",
+    "start:no-cache": "npm run start -- -c-1"
+  }
+}

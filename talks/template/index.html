@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>TALK_TITLE - EVENT_NAME</title>
+
+    <link rel="stylesheet" href="../reveal.js/css/reveal.css" />
+    <link rel="stylesheet" href="../reveal.js/css/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css" />
+
+    <style type="text/css">
+      .print-pdf .slide-menu,
+      .print-pdf .slide-menu-overlay,
+      .print-pdf .slide-menu-button {
+          visibility: hidden !important;
+      }
+   </style>
+
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? '../reveal.js/css/print/pdf.css'
+        : '../reveal.js/css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <section><h1>Slide 1</h1></section>
+          <section><h1>Slide 2</h1></section>
+        </section>
+
+        <section
+          data-markdown="./slides.md"
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+          data-background-size="contain"
+        ></section>
+      </div>
+    </div>
+
+    <script src="../reveal.js/lib/js/head.min.js"></script>
+    <script src="../reveal.js/js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        // width: 1024,
+        // slideNumber: 'h.v',
+        // zoomKey: 'shift',
+
+        menu: {
+          // numbers: 'h.v',
+          markers: true,
+          openSlideNumber: true,
+          themes: [
+            { name: 'Black', theme: '../reveal.js/css/theme/black.css' },
+            { name: 'White', theme: '../reveal.js/css/theme/white.css' }
+          ],
+
+          custom: [
+            {
+              title: 'Home',
+              icon: 'fa-home',
+              content: `
+              <ul class="slide-menu-items">
+                <li class="slide-menu-item">
+                  <i class="fa fa-graduation-cap"></i>
+                  <a href="../index.html">Página de Início</a>
+                </li>
+                <li  class="slide-menu-item">
+                  <i class="fa fa-file-pdf-o"></i>
+                  <a target="_blank" href="./index.html?print-pdf">Exportar para PDF</a>
+                </li>
+              </ul>
+              `
+            }
+          ]
+        },
+
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+
+        allottedTime: 20 * 60 * 1000, // 20 minutes
+        progressBarHeight: 3,
+
+        keyboard: {
+          // pause/resume time when Enter is pressed
+          13: () => {
+            ElapsedTimeBar.isPaused
+              ? ElapsedTimeBar.resume()
+              : ElapsedTimeBar.pause();
+          },
+          // reset timer when 'r' is pressed
+          82: () => {
+            ElapsedTimeBar.reset();
+          }
+        },
+
+        dependencies: [
+          {
+            src: '../reveal.js/lib/js/classList.js',
+            condition: function() {
+              return !document.body.classList;
+            }
+          },
+          {
+            src: '../reveal.js/plugin/markdown/marked.js',
+            condition: function() {
+              return !!document.querySelector('[data-markdown]');
+            }
+          },
+          {
+            src: '../reveal.js/plugin/markdown/markdown.js',
+            condition: function() {
+              return !!document.querySelector('[data-markdown]');
+            }
+          },
+          {
+            src: '../reveal.js/plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          },
+          { src: '../reveal.js/plugin/search/search.js', async: true },
+          { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '../reveal.js/plugin/notes/notes.js', async: true },
+          // others
+          { src: '../reveal.js/plugin/menu/menu.js', async: true },
+          { src: '../reveal.js/plugin/elapsed-time-bar/elapsed-time-bar.js' },
+          { src: '../reveal.js/plugin/mouse-pointer/mouse-pointer.js' }
+        ]
+      });
+    </script>
+  </body>
+</html>
