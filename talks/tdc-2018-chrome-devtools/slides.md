@@ -8,8 +8,40 @@ Essa talk é pra você que quer detectar Memory Leak antes dos seus usuários e 
 
 O Ministério dos Frontenders Adverte: você pode querer largar o seu editor/IDE - just kidding
 
+X-X
+
 Ideias:
-- ...
+# Básico (até 5min) - mostrar um botão
+- chrome version
+- $0 - acessa o elemento selecionado
+- copy(...)
+- force state: hover/focus, active
+- acessibilidade
+- ev on element, event listener frameworks
+- color picker + RGB/HEX + color palete + color a11y
+- box model: margin, border, padding
+- scroll to view
+- media query, 
+- (tabs "escondidas") coverage
+
+Snippets
+- loadJquery
+- loadLodash
+- loadMoment
+- 
+
+Não vai dar tempo:
+- Network?
+- Layers
+
+
+# Outros
+- workspaces
+- local overrides
+
+# Memory Leak
+
+# FlameChart
 
 -->
 
