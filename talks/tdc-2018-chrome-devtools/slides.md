@@ -10,6 +10,16 @@ O Ministério dos Frontenders Adverte: você pode querer largar o seu editor/IDE
 
 X-X
 
+"Onde está o gargalo da minha aplicação?"
+
+
+Proposta:
+- flame chart, passo a passo (cada cor?)
+- memory leak - case ALM
+- Local Overrides
+- ~workspaces~
+
+
 Ideias:
 # Básico (até 5min) - mostrar um botão
 - chrome version
