@@ -11,7 +11,9 @@ O Ministério dos Frontenders Adverte: você pode querer largar o seu editor/IDE
 X-X
 
 "Onde está o gargalo da minha aplicação?"
-
+- detectar memory leak
+- flame chart
+- liberar o Akuma
 
 Proposta:
 - flame chart, passo a passo (cada cor?)
