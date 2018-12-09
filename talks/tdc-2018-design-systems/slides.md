@@ -12,6 +12,15 @@ TIPS:
     - pratique com todos do time
     - faça revezamentos/rodízios
 
+# CASE DNIT
+- inventário: evidências, prioridades
+- time
+- soluções
+- implantação
+- launch! MVP para novos projetos Angular
+- ... ai chega um ~legado~ produto em JSF (gif what?)
+
+
 -->
 
 # Design Systems
@@ -36,6 +45,25 @@ conteúdo
 
 ---
 
-#### Dúvidas?
+# REACAP
+<!-- O que vimos? Alguma dúvida? -->
 
-Obrigado.
+- Flame Chart
+- Memory Leak
+- Snippets e Workspace
+- Local Overrides
+
+---
+
+#### Próximo passo?
+
+<!-- Isso foi só o começo... -->
+> Dedique um tempo para aprender mais sobre suas ferramentas.
+> Explore... fuçe!
+
+---
+
+#### Obrigado TDC
+
+Quer ver mais?
+Me chama no LinkedIn / Twitter: Leonardo Merlin
